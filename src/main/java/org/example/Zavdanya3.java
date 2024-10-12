@@ -17,6 +17,9 @@ public class Zavdanya3 {
                     System.out.print("Введіть цифру від 1 до 9: ");
                     int chislo = scanner.nextInt();
 
+                    start = Math.abs(start);
+                    end = Math.abs(end);
+
 
                     if (chislo < 1 || chislo > 9) {
                         System.out.println("Помилка: введіть цифру від 1 до 9.");
